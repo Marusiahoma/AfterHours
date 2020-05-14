@@ -1,0 +1,6 @@
+{% extends "mainApp/wrapper.html"%}
+
+{% block content %}
+<h2 class="text-info"><font color="grey">{{articles.title}}</font></h2>
+    <p>{{articles.body|safe|linebreaks}}</p>
+{% endblock %}
